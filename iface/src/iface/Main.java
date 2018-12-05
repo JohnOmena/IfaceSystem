@@ -1,12 +1,12 @@
 package iface;
-import database.AccountDatabase;
+import database.IfaceDatabase;
 import interaction.HomeScreen;
 
 public class Main {
 
 	public static void main(String[] args) {	
 	
-		AccountDatabase accData = new AccountDatabase();
+		IfaceDatabase accData = new IfaceDatabase();
 		HomeScreen home = new HomeScreen();
 	
 		home.homeScreen(accData);

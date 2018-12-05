@@ -35,11 +35,11 @@ public class HomeScreen {
 		switch(option) {
 		
 			case 1:
-				
+				accData.accessProfileAccount(accData);
 				break;
 			case 2:
 				Account account = new Account();
-				accData.addAccount(account.createAccount());
+				accData.addAccount(account.createAccount(accData));
 				break;
 			case 3:
 				System.exit(0);
